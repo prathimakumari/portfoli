@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Prathima Landing Page</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <!-- Navbar -->
+  <nav id="navbar">
+    <div class="logo">MyDeveloper</div>
+    <ul>
+      <li><a href="#home">Home</a></li>
+      <li><a href="#services">Services</a></li>
+      <li><a href="#projects">Projects</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+  </nav>
+
+  <!-- Hero Section -->
+  <!-- Hero Section with Video Background -->
+<section id="home" class="hero">
+  <!-- Video as Background -->
+  <video class="background-video" autoplay muted loop>
+    <source src="video1.mp4" type="video/mp4">
+    Your browser does not support the video tag.
+  </video>
+  
+  <div class="hero-content">
+    <h1 class="hero-title">Innovate Your Digital Future</h1>
+    <p class="hero-subtitle">Create. Build. Grow.</p>
+    <a href="#services" class="btn btn-animated">Explore Our Services</a>
+  </div>
+</section>
+
+
+
+  <!-- Services Section with 3D Cards -->
+<section id="services" class="services">
+  <h2>Our Services</h2>
+  <div class="services-grid">
+    <div class="service-item">
+      <div class="card">
+        <div class="card-content">
+          <h3>Full-Stack Development</h3>
+          <p>End-to-end development of scalable and efficient web applications.</p>
+        </div>
+      </div>
+    </div>
+    <div class="service-item">
+      <div class="card">
+        <div class="card-content">
+          <h3>Mobile App Development</h3>
+          <p>Native and cross-platform mobile solutions to reach users on any device.</p>
+        </div>
+      </div>
+    </div>
+    <div class="service-item">
+      <div class="card">
+        <div class="card-content">
+          <h3>UI/UX Design</h3>
+          <p>Designing intuitive and engaging user interfaces with the best user experience.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+  <!-- Projects Section with 3D Flip Cards -->
+  <section id="projects" class="projects">
+    <h2>Our Recent Projects</h2>
+    <div class="projects-grid">
+      <div class="project-item">
+        <div class="flip-card">
+          <div class="flip-card-inner">
+            <div class="flip-card-front">
+              <h3>E-Commerce Platform</h3>
+            </div>
+            <div class="flip-card-back">
+              <p>We built a robust, scalable platform that serves thousands of users daily.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="project-item">
+        <div class="flip-card">
+          <div class="flip-card-inner">
+            <div class="flip-card-front">
+              <h3>Social Media App</h3>
+            </div>
+            <div class="flip-card-back">
+              <p>A cross-platform mobile app designed to connect millions of users globally.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="project-item">
+        <div class="flip-card">
+          <div class="flip-card-inner">
+            <div class="flip-card-front">
+              <h3>AI-Driven Analytics</h3>
+            </div>
+            <div class="flip-card-back">
+              <p>Utilized AI to build a smart analytics platform that delivers real-time insights.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+<!-- Resume Download Section -->
+<section id="resume" class="resume">
+  <h2>Download My Resume</h2>
+  <a href="C:\Users\Admin\Desktop\resumepk" class="btn btn-download" download>Download Resume</a>
+</section>
+
+  <!-- Contact Section with 3D Effects -->
+ <!-- Contact Form Section -->
+<section id="contact" class="contact">
+  <h2>Get in Touch</h2>
+  <div class="contact-form">
+    <form action="#" method="post">
+      <div class="form-group">
+        <input type="text" id="name" name="name" required>
+        <label for="name">Your Name</label>
+      </div>
+      <div class="form-group">
+        <input type="email" id="email" name="email" required>
+        <label for="email">Your Email</label>
+      </div>
+      <div class="form-group">
+        <textarea id="message" name="message" required></textarea>
+        <label for="message">Your Message</label>
+      </div>
+      <button type="submit" class="submit-btn">Send Message</button>
+    </form>
+  </div>
+</section>
+
+  <!-- Footer -->
+  <footer>
+    <p>© 2024 MyDeveloper. Crafting digital experiences, one project at a time.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
